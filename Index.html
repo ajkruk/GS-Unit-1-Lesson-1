@@ -7,17 +7,33 @@
     <link rel="stylesheet" href="style.css">
    </head>
 <body>
-<heading>
+<header>
     <h1>Alicia Kruk</h1>
-</heading>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="my-start">My Start</a></li>
+            <li><a href="details">Details</a></li>
+            <li><a href="social-media">Social Media</a></li>
+            <li><a href="some-words.html">Some Words</a></li>
+        </ul>
+    </nav>
+
+</header>
     <main>
-    <img src="A Kruk Photo 1.jpeg" height="200px" alt="Alicia Kruk smiling wearing glasses"/>
-    <p>
+    <img src="A Kruk Photo 1.jpeg" height="200px" alt="Alicia Kruk smiling wearing glasses" id="profile-pic"/>
+    <p class="overview">
         Welcome to my website! I am excited to introduce myself. I am an administrator in the education field, where I have dedicated over 15 years of my career life. I've been considering a change for a few years now, and have been looking at opportnities to learn about coding. This summer, two of my kids and I decided to go on a journey together. </p>
-    <h2>How I got my start.</h2> 
+    <h2 id="my-start">How I got my start.</h2> 
+
     <p>I have been considering a career change for several years, and after a lot of research, and speaking with others in the field, I decided that I was very interested in working in the technology field and that coding was something I was very interested in. I used a website called FreeCodeCamp.com to learn some basics and quickly decided that I was more than just interested, and that I was ready to start making my career change.</p>
     <p>My husband has worked in the field for about 4 years, having made a move out of the labor trades. He had takedn classess through the community college and learned quite a bit about coding, but it wasn't until he discovered Grand Circus, that he started to dig deeper and learn a lot more. As I have been exploring this opportunity, he has encouraged me take the same path. Two of our three children are also interested in working in the field, as the three of us have decided to do the bootcamp together.</p>       
-    <h2>Details</h2>
+    <h2 id="details">Details</h2>
+
+    <blockquote id="joke">
+        <p>Why did the cow cross the road?</p>
+        <P>To get to the udder side</P>
+
+    </blockquote>
     <h3>Favorites</h3>
     <ol>
         <li>My favorite <strong>book</strong> is <cite>The Girl with all the Gifts</cite>.</li>
@@ -31,7 +47,7 @@
             <th>Age</th>
         </tr>
         <tr>
-            <td>Little Doctor "Emmett" Brown</td>
+            <td>Emmett</td>
             <td>Devon Rex Cat</td>
             <td>8 years</td>
         </tr>
@@ -48,11 +64,19 @@
     </table>
     </main>
     <footer>
-    <h3>Social Media</h3>
-    <ul>
+    <h3 id="social-media">Social Media</h3>
+    <ul class="nav-list">
         <li><img src="github-mark.png"  width=30px alt="github logo"></img> <a href="https://github.com/ajkruk">Github</a></li>
         <li><img src="LI-In-Bug.png" width=30px alt="linkedin logo"><a href="https://www.linkedin.com/in/alicia-kruk-b799a418/">Linkedin</a></li>
     </ul>
     </footer>
+
+    <div class="numbers-box">
+        <div class="color-box color-box-1">1</div>
+        <div class="color-box color-box-2">2</div>
+        <div class="color-box color-box-3">3</div>
+        <div class="color-box color-box-4">4</div>
+    </div>
+
 </body>
 </html>
